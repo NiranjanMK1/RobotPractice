@@ -4,7 +4,7 @@ Variables   H:/python_own_projects/pythonProject1/RobotPractice/POMProject/PageO
 
 *** Keywords ***
 Launchbrowser
-    Open Browser    https://opensource-demo.orangehrmlive.com/web/index.php/auth/login     headlesschrome
+    Open Browser    https://opensource-demo.orangehrmlive.com/web/index.php/auth/login     chrome
     Maximize Browser Window
     Sleep    3
 EnterUsername
