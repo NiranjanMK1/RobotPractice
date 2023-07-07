@@ -11,7 +11,7 @@ ${pwd}          tutorial
 *** Test Cases ***
 Login Test
     Openmybrowser    ${siteurl}    ${Browser}
-
+    sleep    1
     Enter UserName    ${user}
     Enter Password    ${pwd}
     Click Sigiin
