@@ -1,0 +1,21 @@
+# Define the GitLab CI/CD pipeline
+stages:
+  - test
+
+# Job to run the Robot Framework tests
+test_robot_framework:
+  stage: test
+  image: python:3.8   # Choose the appropriate Docker image with Robot Framework and Python pre-installed
+
+  before_script:
+    - pip install --upgrade pip
+    - pip install -r requirements.txt  # Install any dependencies required for your tests
+
+  script:
+    - robot H:/python_own_projects/pythonProject1/RobotPractice/a.robot   # Replace 'path/to/your/tests' with the actual path to your Robot Framework test files
+
+  # (Optional) If you want to publish the test results to ReportPortal or other platforms:
+  artifacts:
+    when: always
+    paths:
+      - path/to/your/reports/*.xml   # Replace 'path/to/your/reports/' with the actual path to your test result files
