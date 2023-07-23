@@ -1,0 +1,34 @@
+==============================================================================
+Suites                                                                        
+==============================================================================
+Suites.Suitesetupteardown                                                     
+==============================================================================
+Opening browser
+TC1 Prepaid Recharge                                                  login to application
+This is prepaid recharge
+logout from appllication
+| PASS |
+------------------------------------------------------------------------------
+TC2 Postpaid Recharge                                                 login to application
+This is postpaid recharge
+logout from appllication
+| PASS |
+------------------------------------------------------------------------------
+TC3 Search                                                            login to application
+This is serach test
+logout from appllication
+| PASS |
+------------------------------------------------------------------------------
+TC4 Advanced Seach                                                    login to application
+This is Adv Search Test case
+logout from appllication
+| PASS |
+------------------------------------------------------------------------------
+Closing Browser
+Suites.Suitesetupteardown                                             | PASS |
+4 tests, 4 passed, 0 failed
+==============================================================================
+Suites                                                                | PASS |
+4 tests, 4 passed, 0 failed
+==============================================================================
+Output:  H:\python_own_projects\pythonProject1\RobotPractice\Results\pabot_results\1\output.xml

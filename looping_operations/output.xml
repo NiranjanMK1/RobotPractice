@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 6.0.1 (Python 3.7.4 on win32)" generated="20230705 16:05:09.545" rpa="false" schemaversion="3">
+<suite id="s1" name="Forzip" source="H:\python_own_projects\pythonProject1\RobotPractice\looping_operations\forzip.robot">
+<test id="s1-t1" name="Forinzip" line="10">
+<for flavor="IN ZIP">
+<var>${names}</var>
+<var>${age}</var>
+<value>${name}</value>
+<value>${ages}</value>
+<iter>
+<var name="${names}">Alice</var>
+<var name="${age}">25</var>
+<kw name="Log To Console" library="BuiltIn">
+<arg>${names} - ${age}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" starttime="20230705 16:05:09.887" endtime="20230705 16:05:09.887"/>
+</kw>
+<status status="PASS" starttime="20230705 16:05:09.886" endtime="20230705 16:05:09.887"/>
+</iter>
+<iter>
+<var name="${names}">Bob</var>
+<var name="${age}">30</var>
+<kw name="Log To Console" library="BuiltIn">
+<arg>${names} - ${age}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" starttime="20230705 16:05:09.888" endtime="20230705 16:05:09.888"/>
+</kw>
+<status status="PASS" starttime="20230705 16:05:09.888" endtime="20230705 16:05:09.888"/>
+</iter>
+<iter>
+<var name="${names}">Charlie</var>
+<var name="${age}">35</var>
+<kw name="Log To Console" library="BuiltIn">
+<arg>${names} - ${age}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" starttime="20230705 16:05:09.889" endtime="20230705 16:05:09.889"/>
+</kw>
+<status status="PASS" starttime="20230705 16:05:09.889" endtime="20230705 16:05:09.889"/>
+</iter>
+<status status="PASS" starttime="20230705 16:05:09.886" endtime="20230705 16:05:09.889"/>
+</for>
+<status status="PASS" starttime="20230705 16:05:09.885" endtime="20230705 16:05:09.890"/>
+</test>
+<status status="PASS" starttime="20230705 16:05:09.547" endtime="20230705 16:05:09.892"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="1" fail="0" skip="0" id="s1" name="Forzip">Forzip</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>

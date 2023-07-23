@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 6.0.1 (Python 3.7.4 on win32)" generated="20230723 15:25:12.202" rpa="false" schemaversion="3">
+<suite id="s1" name="A" source="H:\python_own_projects\pythonProject1\RobotPractice\a.robot">
+<kw name="Log To Console" library="BuiltIn" type="SETUP">
+<arg>openin browser</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" starttime="20230723 15:25:12.242" endtime="20230723 15:25:12.243"/>
+</kw>
+<test id="s1-t1" name="TC1 prepaid recharge" line="9">
+<kw name="Log To Console" library="BuiltIn" type="SETUP">
+<arg>Login in to the application</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" starttime="20230723 15:25:12.244" endtime="20230723 15:25:12.244"/>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<arg>this prepaid recharge</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" starttime="20230723 15:25:12.245" endtime="20230723 15:25:12.245"/>
+</kw>
+<kw name="Log To Console" library="BuiltIn" type="TEARDOWN">
+<arg>logout of the application</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" starttime="20230723 15:25:12.246" endtime="20230723 15:25:12.247"/>
+</kw>
+<status status="PASS" starttime="20230723 15:25:12.243" endtime="20230723 15:25:12.248"/>
+</test>
+<test id="s1-t2" name="TC2 postpaid recharge" line="11">
+<kw name="Log To Console" library="BuiltIn" type="SETUP">
+<arg>Login in to the application</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" starttime="20230723 15:25:12.250" endtime="20230723 15:25:12.250"/>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<arg>this post paid recharge</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" starttime="20230723 15:25:12.250" endtime="20230723 15:25:12.251"/>
+</kw>
+<kw name="Log To Console" library="BuiltIn" type="TEARDOWN">
+<arg>logout of the application</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" starttime="20230723 15:25:12.251" endtime="20230723 15:25:12.252"/>
+</kw>
+<status status="PASS" starttime="20230723 15:25:12.249" endtime="20230723 15:25:12.252"/>
+</test>
+<test id="s1-t3" name="TC3 serach fucntion" line="13">
+<kw name="Log To Console" library="BuiltIn" type="SETUP">
+<arg>Login in to the application</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" starttime="20230723 15:25:12.254" endtime="20230723 15:25:12.254"/>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<arg>this is search function</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" starttime="20230723 15:25:12.255" endtime="20230723 15:25:12.255"/>
+</kw>
+<kw name="Log To Console" library="BuiltIn" type="TEARDOWN">
+<arg>logout of the application</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" starttime="20230723 15:25:12.256" endtime="20230723 15:25:12.256"/>
+</kw>
+<status status="PASS" starttime="20230723 15:25:12.253" endtime="20230723 15:25:12.257"/>
+</test>
+<test id="s1-t4" name="TC4 Advanced function" line="15">
+<kw name="Log To Console" library="BuiltIn" type="SETUP">
+<arg>Login in to the application</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" starttime="20230723 15:25:12.259" endtime="20230723 15:25:12.259"/>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<arg>this is advnaced search functiona</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" starttime="20230723 15:25:12.260" endtime="20230723 15:25:12.260"/>
+</kw>
+<kw name="Log To Console" library="BuiltIn" type="TEARDOWN">
+<arg>logout of the application</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" starttime="20230723 15:25:12.261" endtime="20230723 15:25:12.261"/>
+</kw>
+<status status="PASS" starttime="20230723 15:25:12.258" endtime="20230723 15:25:12.262"/>
+</test>
+<kw name="Log To Console" library="BuiltIn" type="TEARDOWN">
+<arg>closing</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" starttime="20230723 15:25:12.263" endtime="20230723 15:25:12.264"/>
+</kw>
+<status status="PASS" starttime="20230723 15:25:12.204" endtime="20230723 15:25:12.264"/>
+</suite>
+<statistics>
+<total>
+<stat pass="4" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="4" fail="0" skip="0" id="s1" name="A">A</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
