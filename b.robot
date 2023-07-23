@@ -4,7 +4,7 @@ Library     SeleniumLibrary
 
 *** Test Cases ***
 Navigation Test case
-    Open Browser        https://www.google.com      chrome
+    Open Browser        https://www.google.co.in      chrome
     ${loc}=     get location
     Log To Console    ${loc}
     
